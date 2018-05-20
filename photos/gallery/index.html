@@ -8,18 +8,20 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="jiugongge_demo 	 		*{ 			margin:0; 			padding: 0; 		} 		table{ 			margin: 30px; 			border-collapse: collapse; 		} 		#test0{ 			margin: 30px; 			width: 200px; 			height: 200px; 		} 		#test0 div{">
+  <meta name="description" content="照片 相册   江南小镇    青海湖 各种花 骊山 华山 秦岭 终南山 西藏 陕师大">
 <meta name="keywords" content="前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验">
 <meta property="og:type" content="website">
 <meta property="og:title">
-<meta property="og:url" content="http://yoursite.com/assets/demo/jiugongge_demo.html">
+<meta property="og:url" content="http://yoursite.com/photos/gallery/index.html">
 <meta property="og:site_name">
-<meta property="og:description" content="jiugongge_demo 	 		*{ 			margin:0; 			padding: 0; 		} 		table{ 			margin: 30px; 			border-collapse: collapse; 		} 		#test0{ 			margin: 30px; 			width: 200px; 			height: 200px; 		} 		#test0 div{">
+<meta property="og:description" content="照片 相册   江南小镇    青海湖 各种花 骊山 华山 秦岭 终南山 西藏 陕师大">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2016-12-30T22:16:28.000Z">
+<meta property="og:image" content="http://yoursite.com/photos/gallery/江南小镇/百间楼.jpg">
+<meta property="og:updated_time" content="2018-05-20T13:58:34.578Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title">
-<meta name="twitter:description" content="jiugongge_demo 	 		*{ 			margin:0; 			padding: 0; 		} 		table{ 			margin: 30px; 			border-collapse: collapse; 		} 		#test0{ 			margin: 30px; 			width: 200px; 			height: 200px; 		} 		#test0 div{">
+<meta name="twitter:description" content="照片 相册   江南小镇    青海湖 各种花 骊山 华山 秦岭 终南山 西藏 陕师大">
+<meta name="twitter:image" content="http://yoursite.com/photos/gallery/江南小镇/百间楼.jpg">
   
   
     <link rel="icon" href="/assets/img/u=2373910732,3087934415&fm=27&gp=0.jpg">
@@ -142,159 +144,20 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
-<!DOCTYPE HTML>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>jiugongge_demo</title>
-	<style>
-		*{
-			margin:0;
-			padding: 0;
-		}
-		table{
-			margin: 30px;
-			border-collapse: collapse;
-		}
-		#test0{
-			margin: 30px;
-			width: 200px;
-			height: 200px;
-		}
-		#test0 div{
-			width: 50px;
-			height: 50px;
-			float: left;
-			background: #eee;
-			border: 5px solid #00f;
-			text-align: center;
-			line-height: 50px;
-			color: #090;
-			position: relative;
-		}
-		#test0 .lr_indent{
-			margin-left: -5px;
-			margin-right: -5px;
-		}
-		#test0 .tb_indent{
-			margin-top: -5px;
-			margin-bottom: -5px;
-		}
-		#test0 div:hover{
-			border: 5px solid #f00;
-			z-index: 999;
-			background: #eee;
-		}
-		#test1 td{
-			width: 50px;
-			height: 50px;
-			background: #eee;
-			position: relative;
-			border: 5px solid #00f;
-			text-align: center;
-		}
-		#test1 td span{
-			color: #090;
-			display:block;
-			width: 50px;
-			height: 50px;
-			position: absolute;
-			top: 0;
-			left: 0;
-			line-height: 50px;
-		}
-		#test1 td span:hover{
-			border: 5px solid #f00;
-			margin-top:-5px;
-			margin-left: -5px;
-		}
+        <p><font color="#0099ff" size="1"> </font><br><a href="/photos/"><font color="Grey" size="6">照片</font></a> <a href="/photos/gallery"><font color="LightCoral" size="6">相册</font></a> </p>
+<h2 id=""><a href="#" class="headerlink" title=" "></a><font color="#0099ff" size="10"> </font></h2><center>江南小镇</center>
 
-		#test2 td{
-			width: 50px;
-			height: 50px;
-			background: #eee;
-			border: 5px solid #00f;
-			text-align: center;
-			vertical-align: top;
-		}
-		#test2 td div{
-			position:relative;
-			width: 50px;
-			height: 50px;
-		}
-		#test2 td div span{
-			color: #090;
-			display:block;
-			width: 50px;
-			height: 50px;
-			position: absolute;
-			top: 0;
-			left: 0;
-			line-height: 50px;
-		}
-		#test2 td div span:hover{
-			border: 5px solid #f00;
-			margin-left: -5px;
-			margin-top: -5px;
-		}
-	</style>
-</head>
-<body>
-	<h2>1) div+负margin实现</h2>
-	<div id="test0">
-		<div>1</div>
-		<div class="lr_indent">2</div>
-		<div>3</div>
-		<div class="tb_indent">4</div>
-		<div class="lr_indent tb_indent">5</div>
-		<div class="tb_indent">6</div>
-		<div>7</div>
-		<div class="lr_indent">8</div>
-		<div>9</div>
-	</div>
-	<h2>2.1) table border-collapse: collapse实现</h2>
-	<div id="test1">
-		<table>
-			<tr>
-				<td><span>1</span></td>
-				<td><span>2</span></td>
-				<td><span>3</span></td>
-			</tr>
-			<tr>
-				<td><span>4</span></td>
-				<td><span>5</span></td>
-				<td><span>6</span></td>
-			</tr>
-			<tr>
-				<td><span>7</span></td>
-				<td><span>8</span></td>
-				<td><span>9</span></td>
-			</tr>
-		</table>
-	</div>
-	<h2>2.2) table思路改进</h2>
-	<div id="test2">
-		<table>
-			<tr>
-				<td><div><span>1</span></div></td>
-				<td><div><span>2</span></div></td>
-				<td><div><span>3</span></div></td>
-			</tr>
-			<tr>
-				<td><div><span>4</span></div></td>
-				<td><div><span>5</span></div></td>
-				<td><div><span>6</span></div></td>
-			</tr>
-			<tr>
-				<td><div><span>7</span></div></td>
-				<td><div><span>8</span></div></td>
-				<td><div><span>9</span></div></td>
-			</tr>
-		</table>
-	</div>
-</body>
-</html>
+<p><a href="/photos/gallery/江南小镇" title="江南小镇"><img src="/photos/gallery/江南小镇/百间楼.jpg" alt=""></a></p>
+<hr>
+<p>青海湖</p>
+<p>各种花</p>
+<p>骊山</p>
+<p>华山</p>
+<p>秦岭</p>
+<p>终南山</p>
+<p>西藏</p>
+<p>陕师大</p>
+
       
 
       
@@ -378,7 +241,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/assets/demo/jiugongge_demo.html" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/photos/gallery/" alt="微信分享二维码">
     </div>
 </div>
 
